@@ -17,7 +17,6 @@ authRouter
             }
         }
         
-
         AuthService.getUserWithUserName(
             req.app.get('db'),
             loginUser.user_name
